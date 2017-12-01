@@ -1,7 +1,7 @@
 # Main Program v1.1
 # December 2012:  Andy Oakley
 # See ReadMe for full details
-# https://github.com/DasOakster/data-quality-management/blob/master/README.md
+# https://github.com/DasOakster/wilko.com/blob/master/README.md
 # This program creates a single product view across Google and SAP
 # It evaluates the Data Quality for required but missing atributes, completed web descriptions and 
 # consistency between the brand attribute and the product description
@@ -12,7 +12,7 @@
 
       library(dplyr)
 
-      setwd("C:/Users/oakleya/Desktop/R Projects/data-quality-management")
+      setwd("C:/Users/oakleya/Desktop/R Projects/wilko.com")
       
       setwd("./Scripts")
       
