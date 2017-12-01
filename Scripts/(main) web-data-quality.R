@@ -16,7 +16,7 @@
       
       setwd("./Scripts")
       
-            source("build-web-product-data.R")  
+            source("build-single-product-view.R")  
             source("tidy-attributes.R")
             source("score-product-data-quality.R")
             source("build-output-files.R") 
