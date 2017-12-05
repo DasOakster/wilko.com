@@ -4,7 +4,7 @@ export.product.files <- function() {
 
       # Move to the Output Files Directory
       setwd("..")
-      setwd("./Output Files")
+      setwd("./Output Data Files")
       
 # Output the lists of unmatched web skus and web skus with missing web descriptions
       
@@ -103,7 +103,7 @@ export.product.files <- function() {
       unlink("PSA 1",recursive = TRUE)
       dir.create("PSA 1",showWarnings = FALSE)
       setwd("./PSA 1")
-      output.psa1.cleanse.test()
+      output.psa1.cleanse()
       setwd("..")   
       
       # PSA 2 Level Files
@@ -112,7 +112,7 @@ export.product.files <- function() {
       unlink("PSA 2",recursive = TRUE)
       dir.create("PSA 2",showWarnings = FALSE)
       setwd("./PSA 2")
-      output.psa.cleanse()
+      output.psa2.cleanse()
       setwd("..")
       
 }

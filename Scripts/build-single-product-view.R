@@ -5,7 +5,7 @@
 
 import.web.data <- function() {
 
-      setwd("./Import Data")
+      setwd("./Import Data Files")
 
       
 # Read in the Google Product Feed
