@@ -114,7 +114,7 @@ output.psa1.cleanse <- function() {
             #  Create Output file for all products in psa1
             
             web.all <- subset(web.product.data,web.product.data$`PSA_1` == psa1)
-            column.list <- c("PSA_1","PSA_2","Article","Web Description",full.attribute.list,"DQ Score")
+            column.list <- c("PSA_1","PSA_2","Article","Web Description","Supplier",full.attribute.list,"DQ Score")
             web.all <- web.all[column.list]
             
             # Create the output file
